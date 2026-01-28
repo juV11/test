@@ -22,16 +22,23 @@ nav ul {
   font-weight : 700;
  }
  
-
+/* LAYOUT */
+.container {
+  display : grid;
+  grid-template-columns : 1fr 1.3fr;
+  padding : 40px;
+  position : relative;
+}
 p1{
   color : black ;
   text-align : center;
   text-place : left;
   font-family : degular;
 }
-h1{
-  color : black;
-  font family : degular;
+h1 {
+  font-family : 'Anton', sans-serif;
+  font-size : 48px;
+  margin-bottom : 20px;
 }
 
 h2{
