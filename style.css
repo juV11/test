@@ -1,15 +1,16 @@
 body{
-  background-color:purple;
+  background-color:white;
 }
 
 p{
   color:blue;
   text-align : center;
+  text-place : left
 }
 h1{
-  color:yellow;
+  color:black;
 }
 
 h2{
-  color:orange;
+  color:black;
 }
