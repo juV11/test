@@ -55,16 +55,23 @@ p1{
   font-family : 'Anton', sans-serif;
   font-size : 15px
 }
-.container {
+. container {
   display : grid;
   grid-template-columns : 1fr 1.3fr;
   padding : 40px;
   position : relative;
 }
-."moifondrose"{
+. moifondrose{
 position : absolute;
 top : 120 px;
-left : 60 px;
+left : 150 px;
+max-width : 350px;
+width : 100%;
+}
+ . projet 1{
+position : absolute;
+top : 120 px;
+left : 150 px;
 max-width : 350px;
 width : 100%;
 }
