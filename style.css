@@ -14,13 +14,22 @@ body {
   border-bottom : 1px solid black;
   padding : 20px 40px;
 }
-nav ul {
-  display : flex;
-  justify-content : flex-end;
-  gap : 30px;
-  list-style : none;
-  font-weight : 700;
- }
+nav{
+display : flex;
+justify-content :flex-end;
+gap : 40px;
+padding : 20px 40px;
+background : white;
+position : sticky;
+top : 0;
+z-index : 10;
+font-weight : bold;
+}
+nav a{
+text-decoration : none;
+color : black;
+transition:.3s;
+}
  
 /* LAYOUT */
 .container {
