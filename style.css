@@ -62,11 +62,11 @@ p1{
   position : relative;
 }
 . moifondrose{
-position : absolute;
-top : 120 px;
-left : 150 px;
-max-width : 350px;
-width : 100%;
+ position: absolute;
+  top : 120 px;
+  left : 60 px;
+  max-width : 350 px;
+  width : 100 %;
 }
  . projet 1{
 position : absolute;
