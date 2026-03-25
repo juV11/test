@@ -54,6 +54,7 @@ p1{
   text-place : left;
   font-family : 'Anton', sans-serif;
   font-size : 15px
+   margin : 20px
 }
 . container {
   display : grid;
