@@ -47,18 +47,18 @@ h1 {
 h2 {
   margin-top : 20px;
   font-weight : 700;
- text-align: right;
+ text-align : right;
 }
 .texte {
-  width: 400px;        /* taille du bloc */
-  margin-left: auto;   /* pousse le bloc à droite */
-  margin-right: 0;
+  width : 400px;        /* taille du bloc */
+  margin-left : auto;   /* pousse le bloc à droite */
+  margin-right : 0;
 
   text-align: center;  /* centre le texte dans le bloc */
 
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+  font-family : 'Anton', sans-serif;
+  font-size : 16px;
+  line-height : 1.6;
 }
 .contact {
   display: flex;
