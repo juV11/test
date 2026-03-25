@@ -56,10 +56,35 @@ p1{
    margin : 20px
   text-align: center;
  }
- p2{
-  color : black ;
+  .contact p {
+   color : balck
   font-family : 'Anton', sans-serif;
-  font-size : 15px
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* alignements */
+.gauche {
+  text-align: left;
+}
+
+.centre {
+  text-align: center;
+}
+
+.droite {
+  text-align: right;
+}
+
+/* style du lien */
+a {
+  font-family : 'Anton', sans-serif;
+  color: black;
+}
+
+a:hover {
+  color: #555;
+}
  
 }
 . container {
