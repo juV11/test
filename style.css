@@ -47,11 +47,10 @@ h1 {
 h2 {
   margin-top : 20px;
   font-weight : 700;
+ text-align: right;
 }
 p1{
   color : black ;
-  text-align : center;
-  text-place : left;
   font-family : 'Anton', sans-serif;
   font-size : 15px
    margin : 20px
