@@ -56,7 +56,7 @@ p1{
    margin : 20px
   text-align: center;
  }
-  .contact {
+.contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +79,6 @@ a {
 a:hover {
   color: #555;
 }
- 
 }
 . container {
   display : grid;
