@@ -50,11 +50,11 @@ h2 {
  text-align : right;
 }
 .texte {
-  width : 400px;        /* taille du bloc */
-  margin-left : auto;   /* pousse le bloc à droite */
+  width : 400px;
+  margin-left : auto;
   margin-right : 0;
 
-  text-align: center;  /* centre le texte dans le bloc */
+  text-align : center;
 
   font-family : 'Anton', sans-serif;
   font-size : 16px;
