@@ -53,8 +53,7 @@ h2 {
   width : 400px;
   margin-left : 0;
   margin-right : auto;
-
-  text-align : center;
+ text-align : center;
 
   font-family : 'Anton', sans-serif;
   font-size : 16px;
@@ -66,7 +65,7 @@ h2 {
   align-items: center;
 }
 
-.contact p {
+.p {
   color: black;
   font-family: 'Anton', sans-serif;
   font-size: 16px;
@@ -89,14 +88,7 @@ a:hover {
   grid-template-columns : 1fr 1.3fr;
   padding : 40px;
   position : relative;
-}
-. moifondrose{
-position : absolute;
-top : 120 px;
-left : 60 px;
-width : 150 px;
-height : auto;
-}
+
  . projet 1{
 position : absolute;
 top : 120 px;
