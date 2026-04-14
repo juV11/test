@@ -1,3 +1,4 @@
+ @charset "UTF-8";
   * {
   margin : 5 px;
   padding : 0;
@@ -9,91 +10,104 @@ body {
   background : white;
   color : black;
   }
-
+/*ligne du haut*/
   header {
   border-bottom : 1px solid black;
-  padding : 20px 40px;
+  padding : 5px 40px;
 }
-nav{
-display : flex;
-justify-content :flex-end;
-gap : 40px;
-padding : 20px 40px;
-background : white;
-position : sticky;
-top : 0;
-z-index : 10;
-font-weight : bold;
+/*accueil cv*/
+nav a {
+  text-decoration: none;   /* enlève le soulignement */
+  color: black;            /* même couleur que ton texte */
+  margin: 0 15px;          /* espace entre les liens */
+  font-weight: normal;
+  transition: 0.3s;        /* animation douce */
+	margin-left: auto;
+	margin-right: 10px;
+	text-align: right
 }
-nav a{
-text-decoration : none;
-color : black;
-transition:.3s;
+nav a:hover {
+  color: #ff4fa3;          /* change la couleur au passage */
 }
-nav a:hover{
-color:#ff4fa3;
-}
-.container{
-display : grid;
-grid-template-columns : 1fr 1fr;
-padding : 40px;
-gap : 40px;
-}
-h1 {
+
+	h1 {
   font-family : 'Anton', sans-serif;
   font-size : 48px;
   margin-bottom : 20px;
-}
+		}
+
 h2 {
-  margin-top : 20px;
   font-weight : 700;
  text-align : right;
+	 margin-left : auto;
+  margin-right : 80px;
+	top: 200px;
+	bottom: auto;
 }
 .texte {
-  width : 400px;
-  margin-left : 0;
-  margin-right : auto;
- text-align : center;
+ width : 400px;
+	text-align : center;
+  margin-left : auto;
+  margin-right : 10px;
+	top: 200px;
+	bottom: auto;
 
   font-family : 'Anton', sans-serif;
   font-size : 16px;
   line-height : 1.6;
+
 }
 .contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
+	color : deeppink;
 }
-
-.p {
-  color: black;
-  font-family: 'Anton', sans-serif;
-  font-size: 16px;
-  margin: 0;
-}
-
-/* style du lien */
-a {
-  font-family: 'Anton', sans-serif;
-  color: black;
+.contact a {
+  color: deeppink;
   text-decoration: none;
 }
 
-a:hover {
-  color: #555;
-}
-}
-. container {
-  display : grid;
-  grid-template-columns : 1fr 1.3fr;
-  padding : 40px;
-  position : relative;
-
- . projet 1{
-position : absolute;
-top : 120 px;
-left : 150 px;
-max-width : 350px;
-width : 100%;
+texte2 {
+	width : 400px;
+	text-align : left;
+  margin-left : auto;
+  margin-right : 300px;
+	}
+.container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 }
 
+/* Image cachée au départ */
+.container img {
+    display: none;
+    position: absolute;
+	z-index: 9999;
+    top: -100px;
+    left: 200px;
+    width: 200px;
+    border: 0 px solid #ccc;
+}
+
+/* Affichage au survol */
+.container:hover img {
+    display: block;
+}
+.texte2 summary {
+  cursor: pointer;
+	}
+texte2 hover {
+  color: #ff4fa3;          /* change la couleur au passage */
+}
+
+.contenu {
+  margin-top: 20px;
+	 width : 400px;
+	text-align : center;
+  margin-left : auto;
+  margin-right : 10px;
+	top: 200px;
+	bottom: auto;
+}
